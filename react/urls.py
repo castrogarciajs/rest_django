@@ -8,5 +8,4 @@ router.register(r'tasks', TaskView, 'tasks')
 
 urlpatterns = [
     path('api/v1', include(router.urls))
-
 ]
